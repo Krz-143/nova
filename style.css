@@ -1,0 +1,108 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #33443;
+    color: #fff443;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    background-image: url('back.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 100px 0;
+    height: 50vh;
+    width: 100%;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+   .gradient-text {
+       background: linear-gradient(to right, #007bff, #ff33cc);
+       -webkit-background-clip: text;
+       color: transparent;
+       text-align: center;
+       justify-content: center;
+       color: #990066;
+   }
+
+   .fade-in {
+       opacity: 0;
+       text-align: center;
+       justify-content: center;
+       animation: fadeIn 1.5s ease-in-out forwards;
+   }
+
+
+   @keyframes fadeIn {
+       from {
+           opacity: 0;
+           transform: translateY(20px);
+       }
+       to {
+           opacity: 1;
+           transform: translateY(0);
+       }
+   }
+   img{
+
+     background-size: cover;
+     align-items: center;
+     justify-content:center;
+     text-align: center;
+     padding: 100px 0;
+     height: 50vh;
+     width: 100%;
+
+   }
+
+footer {
+    background-color: #00ff33;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
